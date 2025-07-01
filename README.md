@@ -70,16 +70,6 @@
 - **View Recent Jobs**: Scroll through the **Popularjobs** section to see recent job listings with titles and companies.
 - **Navigate**: Use the menu (left) or profile (right) buttons in the header for additional functionality (to be implemented).
 
-## Project Structure
-- `_layout.js`: Configures the app’s navigation with **Expo Router** and loads custom **DM Sans** fonts.
-- `index.js`: Main entry point exporting components (`Welcome`, `Popularjobs`, `ScreenHeaderBtn`).
-- `ScreenHeaderBtn.jsx`: Reusable header button component with customizable icons and dimensions.
-- `Welcome.jsx`: Searchable welcome section with job type tabs and a personalized greeting.
-- `Popularjobs.jsx`: Displays recent job listings in a card-based layout with a "Show all" option.
-- `screenheader.style.js`: Styles for header buttons with consistent design.
-- `welcome.style.js`: Styles for the welcome section, including search bar and job type tabs.
-- `popularjobs.style.js`: Styles for job cards and list layout with shadow effects.
-
 ## Future Improvements
 - **Job Tracking Features**:
   - Add functionality to save and track job applications (e.g., job title, company, status, deadlines).
